@@ -1,6 +1,7 @@
 body{
     background-color: #0C1821;
     color: #ccc9dc;
+    overflow-x:hidden;
 }
 
 h3{
@@ -14,9 +15,22 @@ h1{
     font-family: 'Bebas Neue', cursive;
     
 }
+h2{
+    font-family: 'Bebas Neue', cursive;
+}
+h4{
+    font-family: 'Bebas Neue', cursive;  
+}
 
-.buttomrow{
+footer{
   background-color: #324a5f;
+  min-height: 30vh;
+  padding: 32px;
+}
+
+
+.custom-container{
+  min-height: 70vh;
 }
 
 .name{
